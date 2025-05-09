@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #e0f2ff, #dfe9ff);
+  margin: 0;
+  padding: 0;
+}
+
+.table-container {
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #002c5a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eef4ff;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.approve {
+  background-color: #10b981;
+  color: white;
+}
+
+button.reject {
+  background-color: #ef4444;
+  color: white;
+}
+
+button.back {
+  background-color: #002c5a;
+  color: white;
+  margin-bottom: 20px;
+}

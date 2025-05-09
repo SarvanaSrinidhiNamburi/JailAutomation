@@ -1,0 +1,78 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #e0f2ff, #dfe9ff);
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #e0f2ff;
+  min-height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002c5a;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.task-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 3rem; /* ✅ Adds space below title */
+}
+
+.task-btn {
+  width: 250px;
+  padding: 1rem;
+  background-color: #002c5a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-btn.green {
+  background-color: #002c5a;
+}
+
+.task-btn.red {
+  background-color: #002c5a;
+}
+
+.task-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-2px);
+}
+
+.header img {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
